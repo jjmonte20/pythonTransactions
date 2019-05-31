@@ -19,6 +19,6 @@ def process_workbook(filename):
 
     chart = BarChart()
     chart.add_data(values)
-    sheet.add_chart(chart, 'e2')
-    
+    sheet.add_chart(chart, 'E2')
+
     wb.save(filename)
